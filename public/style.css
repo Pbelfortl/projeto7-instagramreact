@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.root {
+  font-family: 'Roboto',sans-serif;
+}
+
 body {
   background-color: #FAFAFA;
   margin: 54px 0 0;
@@ -89,6 +93,7 @@ body {
 
 .sidebar {
   width: 293px;
+  font-size: 14px;
 }
 
 .stories {
@@ -155,6 +160,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 18px;
+  font-size: 14px;
 }
 
 .post .topo {
@@ -256,7 +262,6 @@ body {
   cursor: pointer;
   height: 31px;
   margin-bottom: 16px;
-  color: red;
 }
 
 .sidebar .sugestoes .sugestao .usuario {

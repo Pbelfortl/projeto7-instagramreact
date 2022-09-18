@@ -49,8 +49,8 @@ const storiesArr = [
 
 const storie = storiesArr.map((s) =>
     <div class="story">
-        <div class="imagem" alt="story Image">
-            <img src={s.imagem} />
+        <div class="imagem">
+            <img src={s.imagem} alt="profile"/>
         </div>
         <div class="usuario">
             {s.usuario}

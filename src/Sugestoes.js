@@ -1,8 +1,12 @@
 export default function Sugestoes() {
     return (
-        <sugestoes>
+        <div class="sugestoes">
+            <div class="titulo">
+                Sugestões para você
+                <div>Ver tudo</div>
+            </div>
             {sugestao}
-        </sugestoes>  
+        </div>
     )
 }
 const suggestArr = [
