@@ -17,6 +17,4 @@ export default function sidebar() {
             </div>
         </div>
     )
-
 }
-
