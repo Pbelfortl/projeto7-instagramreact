@@ -2,7 +2,7 @@ export default function stories() {
     return (
         <div class="stories">
 
-            {storie}
+            {story}
 
             <div class="setinha">
                 <ion-icon name="chevron-forward-circle"></ion-icon>
@@ -47,7 +47,7 @@ const storiesArr = [
     }
 ]
 
-const storie = storiesArr.map((s) =>
+const story = storiesArr.map((s) =>
     <div class="story">
         <div class="imagem">
             <img src={s.imagem} alt="profile"/>
